@@ -50,7 +50,7 @@ body::before {
 
 .container__informacoes {
     flex: 1;
-    padding: 3rem;
+    padding: 1rem;
 }
 
 .container__botao {
