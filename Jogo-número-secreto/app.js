@@ -13,9 +13,13 @@ let numeroSecreto;
 function verificarChute() {
     chutes++;
     let chute = document.querySelector('input').value
+    let palavraTentativa = 'tentativa'
     if(chute == numeroSecreto){
         exibirTextoNaTela('h1', 'Parabéns!');
-        exibirTextoNaTela('p', `Você acertou o número secreto com ${chutes} tentativas`);
+        if(chutes > 1) {
+            palavraTentativa = 'tentativas'
+        }
+        exibirTextoNaTela('p', `Você acertou o número secreto com ${chutes} ${palavraTentativa}`);
     } else {
         if(chute < numeroSecreto) {
         exibirTextoNaTela('p', 'O número secreto é maior');
