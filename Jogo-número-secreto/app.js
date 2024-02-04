@@ -17,13 +17,11 @@ function verificarChute() {
         exibirTextoNaTela('h1', 'Parabéns!');
         exibirTextoNaTela('p', `Você acertou o número secreto com ${chutes} tentativas`);
     } else {
-        exibirTextoNaTela('h1', `Tentativa ${chutes}`);
-
         if(chute < numeroSecreto) {
-        exibirTextoNaTela('p', 'Você ainda não acertou o númeto secreto. Dica: maior');
+        exibirTextoNaTela('p', 'O número secreto é maior');
         }
         if(chute > numeroSecreto) {
-        exibirTextoNaTela('p', 'Você ainda não acertou o númeto secreto. Dica: menor');
+        exibirTextoNaTela('p', 'O número secreto é menor');
         }
     }
 }
@@ -33,4 +31,5 @@ function init() {
     numeroSecreto = gerarNumeroAleatório();
     chutes = 0;
 }
+
 init();
