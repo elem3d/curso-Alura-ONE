@@ -1,4 +1,3 @@
 # Programa ONE - Bolsa na Alura
 
-## Curso 1 - Lógica de Programação com Js
-  - 
+- Jogo do Número Secreto:[https://jogo-do-numero-secreto-silk-iota.vercel.app/]
