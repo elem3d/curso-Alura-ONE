@@ -1,0 +1,43 @@
+body{
+    background: radial-gradient(rgb(183, 166, 244), rgb(137, 81, 177), #6a1ca1, rgb(55, 3, 92), rgb(56, 0, 130));
+    color: #fff;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+
+header, footer{
+    background-color: darkblue;
+    display: flex;
+    margin: auto;
+}
+
+a{
+    color: darkcyan;
+    background-color: pink;
+    border-radius: 30px;
+    padding: 10px;
+    margin: 10px;
+    text-align: justify;
+    align-items: baseline;
+    display: block;
+}
+
+h2{
+    border: 5px;
+    border-color: antiquewhite;
+    padding: 10px;
+    margin: auto;
+    font-weight: 1000;
+    color:lightblue;
+}
+main{
+display: flex;
+flex-direction: column;
+}
+
+div{
+    display: flex;
+}
+
+main img{
+    height: 10rem;
+}
